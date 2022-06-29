@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="jScript.js" defer></script> 
+    
+    <style>
+        body {background-color: rgb(0, 0, 0);}
+        #container { padding: 100 px; align-items: center; align-items: center; margin-top: 50px; }
+        div {display:flex; align-items: center; flex-direction: column;color: white;}
+        .button {display: grid; margin: 20px; padding: 20 px; }
+        
+    </style>
+</head>
+<body>
+    
+    <div id="container">
+        <button onclick="playRound('ROCK')" class="button" style="background-color: black;"><img src="rock.png" height="100px"></button>
+        
+
+        <button onclick="playRound('PAPER')" class="button" style="background-color: black;"><img src="paper.png" height="100px"></button>
+        
+        <button onclick="playRound('SCISSORS')" class="button" style="background-color: black;"><img src="scissors.png" height="100px"></button>
+        
+    </div>
+</body>
+</html>
